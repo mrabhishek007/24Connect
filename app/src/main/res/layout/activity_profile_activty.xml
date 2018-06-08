@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_activity_mainll"
+    android:background="@drawable/bg_image"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/profile_pic"
+        android:scaleType="centerCrop"
+        android:id="@+id/single_user_profile_img_view"/>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@drawable/g_abstract"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/prof_act_disp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Profile name"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/prof_act_disp_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="Current Status"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/prof_act_disp_total_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:fontFamily="@font/nunito_bold" />
+
+
+    <Button
+        android:id="@+id/send_frnd_req"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/red"
+        android:fontFamily="@font/asap_medium"
+        android:padding="10dp"
+        android:text="Send Friend Request"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/decline_frnd_req"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/red"
+        android:padding="10dp"
+        android:text="Decline Friend Request"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

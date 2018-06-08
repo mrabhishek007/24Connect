@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/pink"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".StartActivity">
+
+
+    <ImageView
+        android:src="@drawable/mainapppicon"
+        android:layout_marginTop="35dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="60dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunito_extrabold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Welcome to 24Connect" />
+
+
+
+
+    <Button
+        android:id="@+id/start_activity_loginbutton"
+        android:layout_width="200dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:background="@color/red"
+        android:fontFamily="@font/asap_medium"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Already Have Account" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/pink"
+        android:background="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/asap_medium"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/need_an_account" />
+
+
+
+</LinearLayout>

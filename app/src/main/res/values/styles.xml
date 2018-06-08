@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">#0d0c0c</item>
+
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/white</item>
+
+    </style>
+
+</resources>

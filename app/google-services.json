@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "449240388620",
+    "firebase_url": "https://connect24-7bce0.firebaseio.com",
+    "project_id": "connect24-7bce0",
+    "storage_bucket": "connect24-7bce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449240388620:android:feebac92cdc1a9a2",
+        "android_client_info": {
+          "package_name": "project.android.com.connect24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449240388620-fr9oi0lvvjgq07e2s1behmp7hvh2td8r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.android.com.connect24",
+            "certificate_hash": "df69e3008793779e7ccd02365c42e4a8779cf4ab"
+          }
+        },
+        {
+          "client_id": "449240388620-7lltoe936en2tjm5v4m1muvqgh70qiqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlLFxHh2AuYplKjPylXGDnbtB-KPKVD-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449240388620-7lltoe936en2tjm5v4m1muvqgh70qiqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

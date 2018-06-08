@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/fr_main_ll"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140dp"
+            android:id="@+id/fr_user_circular_layout"
+            android:padding="15dp"
+            android:src="@drawable/profile_pic"
+            android:layout_height="140dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="name"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginRight="25dp"
+                android:textSize="19dp"
+                android:id="@+id/username_fr"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:textAllCaps="false"
+                    android:src="@drawable/accept"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/fr_accept"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:textAllCaps="false"
+                    android:src="@drawable/reject"
+                    android:id="@+id/fr_deny"
+                    android:layout_marginLeft="20dp"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
